@@ -1,3 +1,6 @@
+/* ========================================
+   Root Variables
+======================================== */
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -12,6 +15,10 @@
   --white: #fff;
   --dairy: #fcfcfc;
 }
+
+/* ========================================
+   Base Styles
+======================================== */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -52,6 +59,10 @@ address {
   font-style: normal;
 }
 
+/* ========================================
+   Accessibility Utilities
+======================================== */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -65,18 +76,31 @@ address {
   overflow: hidden;
 }
 
-.container {
+/* ========================================
+   Layout Containers
+======================================== */
+
+.header-container-container,
+.hero-container-container,
+.feature-container-container,
+.team-container-container,
+.portfolio-container-container,
+.footer-container-container {
   width: 1158px;
   max-width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
 
+/* ========================================
+   Header
+======================================== */
+
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
+.header-container-container {
   display: flex;
   align-items: center;
   gap: 24px;
@@ -143,12 +167,16 @@ address {
   color: var(--ocean);
 }
 
+/* ========================================
+   Hero
+======================================== */
+
 .hero-section {
   background-color: var(--navy-blue);
   padding: 188px 0;
 }
 
-.hero-container {
+.hero-container-container {
   text-align: center;
 }
 
@@ -183,6 +211,10 @@ address {
   background-color: var(--ocean);
 }
 
+/* ========================================
+   Features
+======================================== */
+
 .feature-section {
   padding: 120px 0;
 }
@@ -211,12 +243,16 @@ address {
   color: var(--slate);
 }
 
+/* ========================================
+   Team
+======================================== */
+
 .team-section {
   background-color: var(--cloud);
   padding: 120px 0;
 }
 
-.team-container {
+.team-container-container {
   text-align: center;
 }
 
@@ -264,6 +300,10 @@ address {
   color: var(--slate);
 }
 
+/* ========================================
+   Portfolio
+======================================== */
+
 .portfolio-section {
   padding: 120px 0;
 }
@@ -310,6 +350,9 @@ address {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
+
+
+  
 
 .site-footer {
   background-color: var(--navy-blue);
