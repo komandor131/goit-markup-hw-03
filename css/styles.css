@@ -80,12 +80,7 @@ address {
    Layout Containers
 ======================================== */
 
-.header-container-container,
-.hero-container-container,
-.feature-container-container,
-.team-container-container,
-.portfolio-container-container,
-.footer-container-container {
+.container {
   width: 1158px;
   max-width: 100%;
   margin: 0 auto;
@@ -100,7 +95,7 @@ address {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container-container {
+.page-header .container {
   display: flex;
   align-items: center;
   gap: 24px;
@@ -176,7 +171,7 @@ address {
   padding: 188px 0;
 }
 
-.hero-container-container {
+.hero-section .container {
   text-align: center;
 }
 
@@ -252,7 +247,7 @@ address {
   padding: 120px 0;
 }
 
-.team-container-container {
+.team-section .container {
   text-align: center;
 }
 
