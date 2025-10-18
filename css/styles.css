@@ -1,6 +1,4 @@
-/* ========================================
-   Root Variables
-======================================== */
+/* root */
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -16,9 +14,7 @@
   --dairy: #fcfcfc;
 }
 
-/* ========================================
-   Base Styles
-======================================== */
+/* base styles */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -59,9 +55,7 @@ address {
   font-style: normal;
 }
 
-/* ========================================
-   Accessibility Utilities
-======================================== */
+/* hidden */
 
 .visually-hidden {
   position: absolute;
@@ -76,9 +70,7 @@ address {
   overflow: hidden;
 }
 
-/* ========================================
-   Layout Containers
-======================================== */
+/* container */
 
 .container {
   width: 1158px;
@@ -87,9 +79,7 @@ address {
   padding: 0 15px;
 }
 
-/* ========================================
-   Header
-======================================== */
+/* header */
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -162,9 +152,7 @@ address {
   color: var(--ocean);
 }
 
-/* ========================================
-   Hero
-======================================== */
+/* hero */
 
 .hero-section {
   background-color: var(--navy-blue);
@@ -206,9 +194,7 @@ address {
   background-color: var(--ocean);
 }
 
-/* ========================================
-   Features
-======================================== */
+/* features */
 
 .feature-section {
   padding: 120px 0;
@@ -237,10 +223,7 @@ address {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-
-/* ========================================
-   Team
-======================================== */
+/* team */
 
 .team-section {
   background-color: var(--cloud);
@@ -294,10 +277,7 @@ address {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-
-/* ========================================
-   Portfolio
-======================================== */
+/* portfolio */
 
 .portfolio-section {
   padding: 120px 0;
@@ -347,7 +327,7 @@ address {
 }
 
 
-  
+  /* footer */
 
 .site-footer {
   background-color: var(--navy-blue);
